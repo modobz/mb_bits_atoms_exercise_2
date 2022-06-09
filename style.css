@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: palegoldenrod;
+}
+
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+.card {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Pixel_art_grass_image.png");
+  font-size: 9px;
+  font-family: "Press Start 2P", sans-serif;
+  color: palegoldenrod;
+  text-shadow: 2px 8px rgba(0, 100, 17, 0.8);
+  border-radius: 5px;
+  position: relative;
+}
+.card h1 {
+  text-align: center;
+  position: relative;
+  top: 420px;
+}
+
+#fence {
+  width: 300px;
+  height: 50px;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43cf1745-2aef-42cd-9f71-d8f8c1d894cc/d6fdugf-646be74a-c6ad-4678-8596-5c240c8f1300.png/v1/fill/w_192,h_192,strp/fence_tile_by_etherealdragon_d6fdugf-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyIiwicGF0aCI6IlwvZlwvNDNjZjE3NDUtMmFlZi00MmNkLTlmNzEtZDhmOGMxZDg5NGNjXC9kNmZkdWdmLTY0NmJlNzRhLWM2YWQtNDY3OC04NTk2LTVjMjQwYzhmMTMwMC5wbmciLCJ3aWR0aCI6Ijw9MTkyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.JoV-akdnArsnIPaLNHZCGtuJnc7tIEUeJjVejxvROOo");
+  background-size: contain;
+}
+
+#cow {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://stardewvalleywiki.com/mediawiki/images/3/36/White_Cow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 450px;
+  left: 125px;
+}
