@@ -8,7 +8,7 @@ function walk() {
   var walkInterval = setInterval(function () {
     var cowTop = parseInt(window.getComputedStyle(cow).getPropertyValue("top"));
     if (cowTop > 6 && walkCount < 15) {
-      cow.style.top = cowTop - 5 + "px";
+      cow.style.top = cowTop - 6 + "px";
     }
     walkCount++;
   }, 10);
